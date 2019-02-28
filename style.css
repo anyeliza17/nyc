@@ -1,2 +1,26 @@
 body {
     background-color: pink;
+
+}
+nav{
+    text-transform: uppercase;
+    font-family: PT Sans Norror;
+}
+.nav-link{
+    font-weight: bold;
+}
+/*when you hover the tabs change font and background*/
+.nav-link:hover{
+    font-style: italic;
+    background-color: #40E0D0 !important;
+}
+/*this is for the main tab=nav*/
+header{
+    height: 300px;
+    width:  100px;
+    background-image: url(https://i.etsystatic.com/12211789/r/il/81c2ea/1441109677/il_fullxfull.1441109677_n5e4.jpg)
+    background-size: cover;
+
+    /*text aline*/
+    text-align: center;
+}
